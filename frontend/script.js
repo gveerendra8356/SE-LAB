@@ -2,7 +2,7 @@
 const expressionEl = document.getElementById("expression");
 const resultEl = document.getElementById("result");
 const statusEl = document.getElementById("status");
-
+const API_URL = "http://13.211.99.213:3000";
 const SYMBOLS = { "+": "+", "-": "−", "*": "×", "/": "÷", "%": "%" };
 
 let current = "0";     // number being typed
